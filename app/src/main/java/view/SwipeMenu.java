@@ -21,10 +21,6 @@ import android.widget.LinearLayout;
 
 import ns.swipemenu.R;
 
-/**
- * Created by Nicolas on 05/04/2016.
- * (c) Touchnote Ltd., 2015
- */
 public class SwipeMenu extends LinearLayout implements View.OnTouchListener {
     private static final int                ORIENTATION_TOP_TO_BOTTOM = 0;
     private static final int                ORIENTATION_BOTTOM_TO_TOP = 1;

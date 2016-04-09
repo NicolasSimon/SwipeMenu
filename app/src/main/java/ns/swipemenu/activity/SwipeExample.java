@@ -10,10 +10,6 @@ import android.widget.TextView;
 import ns.swipemenu.R;
 import view.SwipeMenu;
 
-/**
- * Created by Nicolas on 09/04/2016.
- * (c) Touchnote Ltd., 2015
- */
 public class SwipeExample extends AppCompatActivity {
     public static final String                      INTENT_TAG_LAYOUT = "Layout";
 
