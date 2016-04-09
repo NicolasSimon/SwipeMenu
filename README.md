@@ -2,9 +2,20 @@
 A handy view to reveal actions
 
 #How to use : 
-Add your xml
+1 ) Add the view to your xml file
 
-<view.SwipeMenu
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".activity.SwipeExample">
+
+    <view.SwipeMenu
         android:id="@+id/revealLayout"
         android:layout_alignParentBottom="true"
         app:orientation="BottomToTop"
@@ -32,12 +43,14 @@ Add your xml
             android:layout_height="@dimen/reveal_layout_min_size"
             android:text="Pull me up!" />
     </view.SwipeMenu>
+</RelativeLayout>
+
     
-    You can use app:orientation to specify the reveal orientation (default : top to bottom)
-    You can use app:minHeight and app:maxHeight to specify the bounds of the view
     
+You can use app:orientation to specify the reveal orientation (default : top to bottom)
+You can use app:minHeight and app:maxHeight to specify the bounds of the view
     
-    Additionaly, you have access to a callback which will be called each time the view is refreshed, with the percentage of the view being revealed :
+Additionaly, you have access to a callback which will be called each time the view is refreshed, with the percentage of the view being revealed :
     
     revealLayout.setCallback(new SwipeMenu.DropDownInterface() {
                 @Override
