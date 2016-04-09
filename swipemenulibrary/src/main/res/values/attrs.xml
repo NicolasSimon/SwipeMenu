@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DropDownLayout">
+        <attr name="minHeight" format="dimension"/>
+        <attr name="maxHeight" format="dimension"/>
+        <attr name="orientation" format="enum">
+            <enum name="TopToBottom" value="0"/>
+            <enum name="BottomToTop" value="1"/>
+            <enum name="LeftToRight" value="2"/>
+            <enum name="RightToLeft" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>

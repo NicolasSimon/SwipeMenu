@@ -19,7 +19,7 @@ import android.view.animation.LinearInterpolator;
 import android.view.animation.Transformation;
 import android.widget.LinearLayout;
 
-import ns.swipemenu.R;
+import ns.swipemenulibrary.R;
 
 public class SwipeMenu extends LinearLayout implements View.OnTouchListener {
     private static final int                ORIENTATION_TOP_TO_BOTTOM = 0;
@@ -35,7 +35,7 @@ public class SwipeMenu extends LinearLayout implements View.OnTouchListener {
     private int                             widthAtStart;
     private ViewGroup.LayoutParams          mParams;
 
-    private SwipeMenu                  mInstance;
+    private SwipeMenu                       mInstance;
     private DropDownInterface               mCallback;
 
     private VelocityTracker                 mTracker;
