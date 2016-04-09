@@ -1,6 +1,11 @@
 # SwipeMenu
 A handy view to reveal actions
 
+![Alt text](https://github.com/NicolasSimon/SwipeMenu/blob/master/record/recording.gif "Example")
+
+
+
+
 #How to use : 
 1 ) Add the view to your xml file
 
