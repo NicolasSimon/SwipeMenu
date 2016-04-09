@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SwipeMenu</string>
+    <string name="top_to_bottom">Top to bottom</string>
+    <string name="bottom_to_top">Bottom to top</string>
+    <string name="left_to_right">Left to right</string>
+    <string name="right_to_left">Right to left</string>
+
+    <string name="transition_name">image_transition</string>
+</resources>
