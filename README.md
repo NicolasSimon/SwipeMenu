@@ -53,6 +53,7 @@ A handy view to reveal actions (API 8+)
     
     
 You can use app:orientation to specify the reveal orientation (default : top to bottom)
+
 You can use app:minHeight and app:maxHeight to specify the bounds of the view
     
 Additionaly, you have access to a callback which will be called each time the view is refreshed, with the percentage of the view being revealed :
