@@ -1,5 +1,5 @@
 # SwipeMenu
-A handy view to reveal actions
+A handy view to reveal actions (API 8+)
 
 ![Alt text](https://github.com/NicolasSimon/SwipeMenu/blob/master/record/recording.gif "Example")
 
